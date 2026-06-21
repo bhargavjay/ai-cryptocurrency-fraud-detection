@@ -1,4 +1,6 @@
 # AI Cryptocurrency Fraud Detection System
+**Privacy-Preserving Fraud Detection using Federated Learning and Explainable AI**
+
 MSc Data Science Dissertation Project | Federated Learning | XGBoost | SHAP | LIME | Explainable AI
 
 ## 📌 Overview
@@ -151,6 +153,22 @@ The project successfully demonstrated the feasibility of privacy-preserving frau
 
 ---
 
+## 📊 Visual Results
+
+### XGBoost Model Performance
+
+![XGBoost Results](images/xgboost_results.png)
+
+### SHAP Feature Importance
+
+![SHAP Analysis](images/shap_analysis.png)
+
+### LIME Explainability
+
+![LIME Analysis](images/lime_analysis.png)
+
+---
+
 ## 📊 Key Findings
 
 * Transaction Hour strongly influences fraud detection.
@@ -177,49 +195,36 @@ The proposed framework provides several business benefits:
 
 ## 🧠 Tech Stack
 
-Python
-
-Pandas
-
-NumPy
-
-Scikit-Learn
-
-XGBoost
-
-Federated Learning
-
-SHAP
-
-LIME
-
-Matplotlib
-
-Seaborn
-
-Jupyter Notebook
+Python • Pandas • NumPy • Scikit-Learn • XGBoost • Federated Learning • SHAP • LIME • Matplotlib • Seaborn • Jupyter Notebook
 
 ---
 
 ## 📁 Project Structure
 
+```text
 AI-Cryptocurrency-Fraud-Detection.ipynb
+├── Main notebook containing data preprocessing, feature engineering,
+│   Federated Learning simulation, machine learning models,
+│   SHAP analysis, and LIME explanations
 
-Cryptocurrency_Transaction_Dataset.csv
+Cryptocurrency_Transaction_Data.csv
+├── Cryptocurrency transaction dataset
 
 requirements.txt
+├── Required Python libraries and dependencies
+
+Bhargav_MSc_Dissertation.pdf
+├── Full MSc Data Science dissertation report
 
 README.md
+├── Project documentation
 
 images/
+├── xgboost_results.png
+├── shap_analysis.png
+└── lime_analysis.png
+```
 
-├── SHAP Analysis
-
-├── LIME Explanations
-
-├── Model Performance Results
-
-└── Architecture Diagrams
 
 ---
 
@@ -232,6 +237,16 @@ images/
 * Improve fraud class recall and detection sensitivity.
 * Explore deep learning techniques for fraud detection.
 * Develop a production-ready dashboard for monitoring suspicious transactions.
+
+---
+
+## 🎓 Dissertation Report
+
+This project was completed as part of the MSc Data Science programme at Coventry University.
+
+The full dissertation report is available in this repository:
+
+[View Dissertation Report](Bhargav_MSc_Dissertation.pdf)
 
 ---
 
