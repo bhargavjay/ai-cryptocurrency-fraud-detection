@@ -1,7 +1,7 @@
 # AI Cryptocurrency Fraud Detection System
 **Privacy-Preserving Fraud Detection using Federated Learning and Explainable AI**
 
-MSc Data Science Dissertation Project | Federated Learning | XGBoost | SHAP | LIME | Explainable AI
+*MSc Data Science Dissertation Project | Federated Learning | XGBoost | SHAP | LIME | Explainable AI*
 
 ## 📌 Overview
 
